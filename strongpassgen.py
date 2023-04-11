@@ -34,5 +34,5 @@ def generate_password(length=24):
     return ''.join(password)
 
 # Example usages
-password1 = generate_password() # Generates a 24-character password
-password2 = generate_password(32) # Generates a 32-character password, obviously for the STRENGTH!
+password1 = print(generate_password()) # Generates a 24-character password
+password2 = print(generate_password(32)) # Generates a 32-character password, obviously for the STRENGTH!
